@@ -18,7 +18,7 @@ npm install --save entepe
 ## Usage
 
 ```jsx
-import NNTP, { IMessageInfo } from 'entepe'
+import NNTP, { interfaces } from 'entepe'
 
 const options = {
     host: usenet.HOST.IP.address,
@@ -28,7 +28,7 @@ const options = {
 const connection: NNTP = new NNTP(options);
 
 await connection.connect();
-const remoteArticle: IMessageInfo = await connection.getArticleHead('<globalId.usenet.org>');
+const remoteArticle: interfaces.IMessageInfo = await connection.getArticleHead('<globalId.usenet.org>');
 await connection.quit();
 ```
 
