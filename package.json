@@ -1,0 +1,42 @@
+{
+  "name": "entepe",
+  "version": "0.0.1",
+  "description": "Small experimental library that makes working with usenet servers possible.",
+  "author": "Adam Kvasnička",
+  "repository": "https://github.com/NomiAdam/entepe",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest --config=jest.config.json",
+    "prepublish": "npm test"
+  },
+  "keywords": [
+    "usenet",
+    "nntp",
+    "newsgroups",
+    "util",
+    "es6",
+    "typescript",
+    "async/await"
+  ],
+  "dependencies": {
+    "emailjs-mime-codec": "2.0.8",
+    "mailparser": "2.5.0",
+    "nodemailer": "5.1.1"
+  },
+  "peerDependencies": {
+    "emailjs-mime-codec": ">=2.0.8",
+    "mailparser": ">=2.5.0",
+    "nodemailer": ">=5.1.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.11",
+    "@types/node": "^11.11.6",
+    "@types/mailparser": "^2.4.0",
+    "jest": "^24.5.0",
+    "ts-jest": "^24.0.0",
+    "typescript": "^3.3.4000"
+  }
+}
