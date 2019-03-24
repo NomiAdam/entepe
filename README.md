@@ -1,4 +1,4 @@
-# bachelor-ui
+# Entepe
 
 > Experimental utility library that makes working with Usenet server possible in Node.JS environment.
 > Made as a part of authors Bachelor Lunews project.
