@@ -7,6 +7,8 @@
 * Uses MIME decoding and encoding
 * Typed with TypeScript
 
+> TODO: 100% test coverage, Secure connect option
+
 [![NPM](https://img.shields.io/npm/v/entepe.svg)](https://www.npmjs.com/package/entepe) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
