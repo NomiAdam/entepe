@@ -1,6 +1,6 @@
 {
   "name": "entepe",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Small experimental library that makes working with usenet servers possible.",
   "author": "Adam Kvasnička",
   "repository": "https://github.com/NomiAdam/entepe",
