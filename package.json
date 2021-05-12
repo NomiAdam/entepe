@@ -24,7 +24,7 @@
   "dependencies": {
     "emailjs-mime-codec": "2.0.8",
     "mailparser": "2.5.0",
-    "nodemailer": "5.1.1"
+    "nodemailer": "6.4.16"
   },
   "peerDependencies": {
     "emailjs-mime-codec": ">=2.0.8",
